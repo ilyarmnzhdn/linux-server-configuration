@@ -25,3 +25,16 @@ Accessible SSH port: 2200
 
 ## Instructions for SSH access to the instance
 
+Download Private Key
+
+Move the private key file into the folder ~/.ssh (where ~ is your environment's home directory). So if you downloaded the file to the Downloads folder, just execute the following command in your terminal. mv ~/Downloads/udacity_key.rsa ~/.ssh/
+
+Open your terminal and type in chmod 600 ~/.ssh/udacity_key.rsa
+
+In your terminal, type in ssh -i ~/.ssh/udacity_key.rsa root@52.29.83.1
+
+Development Environment Information
+
+Public IP Address
+
+52.29.83.1
